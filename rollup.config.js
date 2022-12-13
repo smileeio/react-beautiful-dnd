@@ -56,7 +56,7 @@ export default [
       globals: { react: 'React', 'react-dom': 'ReactDOM' },
     },
     // Only deep dependency required is React
-    external: ['react', 'react-dom'],
+    external: ['react', 'react-dom', 'react-redux'],
     plugins: [
       json(),
       babel(getBabelOptions({ useESModules: true })),
@@ -77,7 +77,7 @@ export default [
       globals: { react: 'React', 'react-dom': 'ReactDOM' },
     },
     // Only deep dependency required is React
-    external: ['react', 'react-dom'],
+    external: ['react', 'react-dom', 'react-redux'],
     plugins: [
       json(),
       babel(getBabelOptions({ useESModules: true })),
